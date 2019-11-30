@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FactoryMethod
+{
+    class VinoBlanco : BebidaEmbriagante
+    {
+        public override int cuantoMeEmbriagaPorHora()
+        {
+            return 20;
+        }
+
+    }
+}
